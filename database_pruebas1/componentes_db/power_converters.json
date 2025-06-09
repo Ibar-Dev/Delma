@@ -1,0 +1,49 @@
+{
+    "conversores_energia": [
+        {
+            "id": "CE001",
+            "tipo": "DC-DC Buck",
+            "modelo": "DCB2405",
+            "fabricante": "PowerTech",
+            "especificaciones": {
+                "voltaje_entrada": "24V",
+                "voltaje_salida": "5V",
+                "corriente_max": "10A",
+                "eficiencia": "95%",
+                "potencia_max": "50W"
+            },
+            "precio": 79.99,
+            "stock": 25
+        },
+        {
+            "id": "CE002",
+            "tipo": "DC-DC Boost",
+            "modelo": "DCB1224",
+            "fabricante": "VoltMaster",
+            "especificaciones": {
+                "voltaje_entrada": "12V",
+                "voltaje_salida": "24V",
+                "corriente_max": "5A",
+                "eficiencia": "92%",
+                "potencia_max": "120W"
+            },
+            "precio": 89.99,
+            "stock": 15
+        },
+        {
+            "id": "CE003",
+            "tipo": "AC-DC",
+            "modelo": "PS230V5V",
+            "fabricante": "PowerSupply",
+            "especificaciones": {
+                "voltaje_entrada": "230VAC",
+                "voltaje_salida": "5VDC",
+                "corriente_max": "20A",
+                "eficiencia": "87%",
+                "potencia_max": "100W"
+            },
+            "precio": 129.99,
+            "stock": 20
+        }
+    ]
+}

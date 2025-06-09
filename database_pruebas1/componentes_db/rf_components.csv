@@ -1,0 +1,7 @@
+ID,Tipo,Modelo,Fabricante,Frecuencia_Min_MHz,Frecuencia_Max_MHz,Potencia_Max_W,Impedancia_Ohm,Precio_USD,Stock
+RF001,Amplificador RF,AMP2040,RFTech,800,2400,50,50,129.99,15
+RF002,Mezclador RF,MIX1020,WaveCorp,100,1800,10,75,89.99,8
+RF003,Filtro Paso Banda,BPF3040,FilterPro,2000,4000,25,50,149.99,12
+RF004,Atenuador,ATT20DB,SignalMaster,0,6000,5,50,45.99,20
+RF005,Circulador,CIRC3P,IsoWave,1000,3000,100,50,199.99,6
+RF006,Acoplador Direccional,DCPL10,CouplerTech,500,2500,30,50,159.99,10

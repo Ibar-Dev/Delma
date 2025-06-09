@@ -1,0 +1,55 @@
+---
+convertidores_dc_ac:
+  - id: INV001
+    tipo: Inversor DC-AC
+    modelo: PSW3000
+    fabricante: PowerWave
+    especificaciones:
+      voltaje_entrada: 12VDC
+      voltaje_salida: 230VAC
+      potencia_nominal: 3000W
+      forma_onda: Senoidal Pura
+      eficiencia: 92%
+      frecuencia: 50Hz
+    caracteristicas_proteccion:
+      - Sobrecarga
+      - Cortocircuito
+      - Temperatura
+      - Inversión de polaridad
+    precio: 299.99
+    stock: 8
+
+  - id: INV002
+    tipo: Inversor DC-AC
+    modelo: MSW1500
+    fabricante: WattMaster
+    especificaciones:
+      voltaje_entrada: 24VDC
+      voltaje_salida: 120VAC
+      potencia_nominal: 1500W
+      forma_onda: Senoidal Modificada
+      eficiencia: 88%
+      frecuencia: 60Hz
+    caracteristicas_proteccion:
+      - Sobrecarga
+      - Bajo voltaje
+      - Temperatura alta
+    precio: 159.99
+    stock: 15
+
+reguladores_carga:
+  - id: REG001
+    tipo: Regulador Solar MPPT
+    modelo: MPPT100
+    fabricante: SolarTech
+    especificaciones:
+      voltaje_entrada_max: 100V
+      corriente_carga: 30A
+      voltaje_sistema: "12/24V Auto"
+      eficiencia: 98%
+    caracteristicas:
+      - Seguimiento punto máxima potencia
+      - Display LCD
+      - Compensación temperatura
+    precio: 189.99
+    stock: 12
